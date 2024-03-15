@@ -1,25 +1,22 @@
-import InterviewBtn from "./InterviewBtn";
-import { useState } from 'react';
 import './Interview.css'
+import Interview2 from './Interview2.jsx'
+import Countdown from './Countdown.jsx';
+import React, { useState, useEffect } from 'react';
 
 function Interview(props) {
-	const [selectedBtn, setSelectedBtn] = useState('');
+	const [time, setTime] = useState(0);
 
-	function clickHandler(selectedButton) {
-		setSelectedBtn(selectedButton);
-	}
+	useEffect(() => {
+		const timer = setTimeout(() => {
+			setTime(3);
+		}, 3000);
+
+		return () => clearTimeout(timer);
+	}, []);
 
 	return (
 		<div id="interview">
-			<h1>Interview Screen</h1>
-			<h1>{props.description}</h1>
-			{selectedBtn}
-			<section id="menubtn">
-				<InterviewBtn onSelect={() => clickHandler('record')}>Record</InterviewBtn>
-				<InterviewBtn onSelect={() => clickHandler('stop')}>Stop</InterviewBtn>
-				<InterviewBtn onSelect={() => clickHandler('screen share')}>Screen share</InterviewBtn>
-				<InterviewBtn onSelect={() => clickHandler('mute')}>Mute</InterviewBtn>
-			</section>
+			{time < 3 ? <Countdown /> : <Interview2 />}			
 		</div>
 	);
 }

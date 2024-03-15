@@ -3,8 +3,13 @@
 	transition: all 0.2s ease-in-out;
 }
 #interview {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-grow: 4;
-	border-style:dashed;
+	/* border-style:dashed; */
 }
 button {
 	border-radius: 8px;
