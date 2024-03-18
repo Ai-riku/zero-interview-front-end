@@ -1,5 +1,5 @@
-import Chat from "./Chat/Chat";
-import ChatInterface from "./ChatInterface/ChatInterface";
+import Chat from "../Chat/Chat";
+import ChatInterface from "../ChatInterface/ChatInterface";
 import "./Message.css";
 
 function Message(props) {

@@ -1,4 +1,4 @@
-import Video from './Video.jsx'
+import Video from './Video/Video.jsx'
 import Info from './Info.jsx'
 
 function Interview2() {

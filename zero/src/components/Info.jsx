@@ -9,7 +9,7 @@ function genRandomInt(max) {
 function Info() {
 	const company = companyNames[genRandomInt(2)];
 	const position = positions[genRandomInt(3)];
-	const type = interviewType[genRandomInt(3)];
+	const type = interviewType[genRandomInt(2)];
 	return (
 		<div>
 			<h1>{company} - {position} - {type}</h1>

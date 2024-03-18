@@ -1,6 +1,6 @@
 import './Interview.css'
-import Interview2 from './Interview2.jsx'
-import Countdown from './Countdown.jsx';
+import Interview2 from '../Interview2.jsx'
+import Countdown from '../Countdown/Countdown.jsx';
 import React, { useState, useEffect } from 'react';
 
 function Interview(props) {

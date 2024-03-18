@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header.jsx'
-import Interview from './components/Interview.jsx'
-import Message from './components/Message.jsx'
+import Interview from './components/Interview/Interview.jsx'
+import Message from './components/Message/Message.jsx'
 
 
 function App() {

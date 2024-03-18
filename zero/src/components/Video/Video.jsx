@@ -1,7 +1,7 @@
 import './Video.css'
-import Info from './Info.jsx'
+import Info from '../Info.jsx'
 
-import InterviewBtn from "./InterviewBtn";
+import InterviewBtn from "../InterviewBtn.jsx";
 import { useState } from 'react';
 
 function Video() {
