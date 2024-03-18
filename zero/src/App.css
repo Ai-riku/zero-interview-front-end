@@ -1,6 +1,9 @@
 #mainid {
 	display: flex;
 	align-items: center;
+	padding: 0 2rem;
+	width: 96vw;
+	height: 86vh;
 }
 
 #app-div {

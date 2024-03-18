@@ -1,5 +1,15 @@
-#message {
+.message {
 	flex-grow: 1;
-	/* flex: 1 0 auto; */
-	border-style:dashed;
+	background-color: #d9d9d9;
+	width: 35%;
+	height: 100%;
+	margin-left: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.message__title {
+	color: black;
+	width: 100%;
 }
