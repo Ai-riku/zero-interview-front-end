@@ -23,10 +23,6 @@
 	border-bottom: 2px solid black;
 }
 
-.interface__title {
-	color: black;
-}
-
 .interface__textbox {
 	display: flex;
 	flex-direction: column;

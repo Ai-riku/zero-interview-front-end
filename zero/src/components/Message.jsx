@@ -5,6 +5,7 @@ import "./Message.css";
 function Message(props) {
   return (
     <div className="message">
+      <h2 className="message__title">Questions</h2>
       <ChatInterface />
       <Chat />
     </div>

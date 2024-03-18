@@ -3,7 +3,6 @@ import "./ChatInterface.css";
 function ChatInterface(props) {
   return (
     <div className="interface">
-      <h2 className="interface__title">Questions</h2>
       <div className="interface__textbox interface__textbox--ai">
         <h4 className="interface__textbox__name">ZeroAI</h4>
         <p className="interface__textbox__text">

@@ -1,10 +1,15 @@
 .message {
 	flex-grow: 1;
 	background-color: #d9d9d9;
-	width: 15%;
+	width: 35%;
 	height: 100%;
 	margin-left: 2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.message__title {
+	color: black;
+	width: 100%;
 }
