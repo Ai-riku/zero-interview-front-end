@@ -14,7 +14,7 @@ function Header() {
 				<ul id="nav">
 					<li><a href="">Auto-apply</a></li>
 					<li><a href="">Interview</a></li>
-					<li><a href="">My</a></li>
+					<li><a href="">Login</a></li>
 				</ul>
 			</nav>
 		</header>
