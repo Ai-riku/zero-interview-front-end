@@ -1,10 +1,10 @@
-#mainid {
-	display: flex;
-	align-items: center;
+.main-id {
+  display: flex;
+  align-items: center;
 }
 
-#app-div {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+.app-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

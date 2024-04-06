@@ -1,0 +1,19 @@
+.menu-btn button {
+  margin: 0.5rem 0.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.header {
+  text-align: left;
+  padding: 0.3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 2rem;
+  height: 1.5rem;
+  object-fit: contain;
+  background-color: transparent;
+}

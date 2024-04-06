@@ -1,5 +1,4 @@
 #message {
-	flex-grow: 1;
-	/* flex: 1 0 auto; */
-	border-style:dashed;
+  flex-grow: 1;
+  border-style: dashed;
 }
