@@ -1,0 +1,42 @@
+#header {
+	text-align :left;
+	padding: 0.3rem 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header img {
+	width: 2rem;
+	height: 1.5rem;
+	object-fit: contain;
+	background-color: transparent;
+}
+
+#page-logo a {
+	color : rgb(53, 51, 54);
+	font-size: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0.05rem 0.05rem 0.1rem rgb(0,0,0);
+}
+
+#header h1 {
+	font-size: 2.2rem;
+}
+
+#nav {
+	display: flex;
+	justify-content: center;
+}
+
+#nav ul {
+	list-style: none;
+	margin : 1rem;
+}
+#nav li {
+	list-style: none;
+	margin-left: 2rem;
+}
+
+
