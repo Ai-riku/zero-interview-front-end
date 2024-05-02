@@ -7,7 +7,7 @@ const Video = () => {
   const socket = useRef();
   const [localStream, setLocalStream] = useState(null);
   const [peerConnection, setPeerConnection] = useState(null);
-
+  
   useEffect(() => {
     socket.current = io();
 
