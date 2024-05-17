@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './Interview.css'
-import Interview2 from '../Interview2.jsx'
+import Interview2 from './Interview2.jsx'
 import Countdown from '../Countdown/Countdown.jsx';
 
 function Interview(props) {
